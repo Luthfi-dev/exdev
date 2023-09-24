@@ -1,0 +1,35 @@
+GET http://localhost:9000/api/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c2VyIjo5NywiZW1haWwiOiJmaWlsdXQ1QGdtYWlsLmNvbSIsIm5hbWEiOiJmaWZpIiwicm9sZSI6InVzZXIiLCJpYXQiOjE2OTQ1MDM0NjIsImV4cCI6MTY5NDUwNzA2Mn0.l0dLwqOlwdrNuj3YtXADzkKAkwz_HgjGE1LMCFgju6Y
+
+###
+POST http://localhost:9000/api/login
+Content-Type: application/json
+
+{
+    "email": "fiilut5@gmail.com",
+    "password": "12345678",
+    "role": "user"
+}
+
+
+###
+GET http://localhost:9000/user/refresh
+
+
+
+###
+GET http://localhost:9000/user/logout
+
+###
+GET http://localhost:9000/user/logout
+
+###
+POST https://ex.luth.my.id/api/login
+Content-Type: application/json
+
+{
+    "email": "fiilut5@gmail.com",
+    "password": "12345678",
+    "role": "user"
+}
+
